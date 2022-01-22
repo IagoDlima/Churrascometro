@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Licorice', cursive;
+    font-family: 'Twinkle Star', cursive;
+    color:rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+
+body{
+background-image: url(./image/churrasco.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
+    
+.h2{
+    color:rgb(255, 255, 255);
+}
+
+.container{
+    
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    max-width: 300px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.753);
+    padding: 20px;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+input{
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+button{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
